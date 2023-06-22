@@ -1,0 +1,77 @@
+body{
+    background-color: #eee;
+    margin: auto 25%;
+
+}
+.parent{
+    position: relative;
+    top: 125px;
+}
+.parent img{
+    position: absolute;
+    top: -110px;
+    right: 242px;
+    z-index: 1;
+}
+.imformtion{
+    background-color: #fff;
+    width: 400px;
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 2%;
+    text-align: center;
+    position: relative;
+}
+.imformtion h1{
+    color: #3770b4;
+    margin: 0;
+    width: 100%;
+}
+    
+.imformtion p{
+    color: #4930306b;
+    margin: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imformtion hr {
+    width: 100%;
+    border: #eee 0.5px solid;
+}
+.imformtion .grid{
+    display: grid;
+    height: 200px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,45px);
+    width: 100%;
+}    
+.grid div{
+    background-color:#eee;
+    height: 40px;
+    display: flex;
+    line-height: 2;
+    padding-left: 10px;
+}
+.grid > .facebook-name , .instegram-name ,.whatsapp-name{
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+.icon{
+    color: #fff;
+    font-weight: bold;
+    background-color:#3770b4;
+    position: absolute;
+    bottom: -17.5px;
+    right:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+
+}
+    
